@@ -1,0 +1,7 @@
+Dado um arranjo X de n elementos inteiros, o algoritmo C executa uma computacao em tempo O(n) para cada 
+numero par de X e uma computacao em tempo O(log n) para cada elemento impar de X.
+Qual o melhor caso e o pior caso em relacao ao tempo de execucao de C?
+
+R: O pior caso seria se o arranjo X tivesse N numeros somente pares, onde o tempo e O(n) seria O(n^2)
+R: O melhor caso seria o oposto, onde o arranjo X tivesse N numeros somente impares, onde o tempo de execucao
+    e de O(log n) para cada n, onde seria O(n log n).

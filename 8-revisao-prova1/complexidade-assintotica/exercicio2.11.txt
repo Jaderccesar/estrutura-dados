@@ -1,0 +1,6 @@
+Dado um arranjo X de n elementos, o algoritmo D chama o algoritmo E para cada elemento X[i].
+O algoritmo E executa em tempo O(i) quando e chamado sobre um elemento X[i].
+Qual o pior caso em relacao ao tempo de execucao do algoritmo D?
+
+R: O algoritmo D executa cada elemento e para cada um chama E, 
+    so para o D ja temos O(n) e para E tambem ja que ele cresce em cada indice, entao seria O(n^2).

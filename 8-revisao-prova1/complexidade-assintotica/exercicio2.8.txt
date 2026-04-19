@@ -1,0 +1,4 @@
+O algoritmo A executa uma computacao em tempo O(log n) para cada entrada de um arranjo de n elementos
+Qual o pior caso em relacao ao tempo de execucao de A?
+
+R: se cada N for log n, entao multiplicando fica O(n log n).
