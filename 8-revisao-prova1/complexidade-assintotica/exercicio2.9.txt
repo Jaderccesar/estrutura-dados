@@ -1,0 +1,5 @@
+Dado um arranjo X de n elementos, o algoritmo B escolhe log n elementos de X, aleatoriamente
+e executa um calculo em tempo O(n) para cada um. Qual o pior caso em relacao ao tempo de execucao de B?
+
+R: Se o algoritmo executa Log n vezes e para cada execucao leva o tempo de O(n), ficaria Log n * n, ou seja O(n log n).
+

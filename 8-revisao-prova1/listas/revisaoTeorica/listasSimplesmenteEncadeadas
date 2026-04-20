@@ -1,0 +1,36 @@
+Vantagem: Estrutura de dados dinamica que pode expandir e contrair com eficiencia
+
+Lista Encadeada: Colecao de nodos formados por uma sequencia linear
+
+Lista simplesmente encadeada: Cada nodo armazena os dados do elemento e uma referencia ao proximo nodo. A alocacao de memoria nao e contigua
+
+Beneficios:
+Tamanho dinamico.
+Consumo de memoria dinamico.
+Facil insercao e remocao de elementos.
+
+Temos referencia do head e tail, tail sempre aponta para null
+
+*Para inserir no inicio
+
+newest.next -> head
+head -> newest
+
+*Operacao O(1)*
+
+*Inserir no final
+tail.next -> newest
+tail -> newest
+
+*Operacao O(1)*
+
+*Remocao no inicio
+head -> head.next
+
+*Operacao O(1)*
+
+Problemas de encadeamento simples:
+Nao conseguir remover o ultimo nodo de forma eficiente
+Nao conseguir remover um nodo que nao seja o primeiro tendo apenas a sua referencia e custoso
+
+Inserir ou remover de uma posicao arbirraria leva O(n)

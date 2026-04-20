@@ -1,0 +1,15 @@
+Cada nodo mantem a referencia do anterior (prev) e do proximo (next) nodos.
+
+nodos sentinelas:
+Nodos vazios ou ficticios no inicio header e no fim trailer da lista.
+
+*Insercao arbitraria (entre A e B)*
+newest.prev -> A
+newest.next -> B
+A.next -> newest
+B.prev -> newest
+
+*Remocao arbitraria (do nodo X)*
+X.prev.next -> X.next
+X.next.prev -> X.prev
+

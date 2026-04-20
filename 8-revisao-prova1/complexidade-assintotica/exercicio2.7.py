@@ -14,4 +14,4 @@ def alg5(first, second):
             count += 1
     return count
 
-#R: O(n^2) complexidade quadratica, cresce muito
+#R: O(n^3) complexidade cubica

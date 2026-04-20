@@ -1,4 +1,4 @@
-#Qual a complexidade assintotica no pior cawso (em termos de O) do algoritmo abaixo?
+#Qual a complexidade assintotica no pior caso (em termos de O) do algoritmo abaixo?
 
 #Return the sum of the integers in given array
 

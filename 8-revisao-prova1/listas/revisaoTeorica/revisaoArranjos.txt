@@ -1,0 +1,25 @@
+Arranjos (array, vetor), sao estruturas fixas, que podem inserir e remover valores.
+as listas dinamicas possuem acesso rapido, mas tem um tamanho estatico, aumentar implicaria em copiar os valores 
+o que gera um alto gasto de memoria
+
+E possivel criar arranjo encadados o que nos permite ter uma alocacao dinamica ja o arranjo normal possui alocao continua
+
+Problema 1 do arranjo:
+* Insercao, todos os elementos seguintes sao movidos para tras.
+* Na remocao, todos os elementos seguintes sao movidos para frente.
+
+Problema 2:
+* Capacidade limitada
+* Aumentar cabe em copiar um arranjo para um novo com o dobro do tamanho e alterar sua referencia.
+
+Operacoes e custos.
+
+Operacao                             complexidade  encadeamento
+Consultar elementos de uma posicao      O(1)           O(n)
+Atualizar elemento de uma posicao       O(1)           O(n)
+Inserir elemento no inicio              O(n)           O(1)
+Inserir elemento no final               O(1)*          O(1) 
+Inserir elemento em posicao arbitraria  O(n)           O(n) 
+Remover elemento do inicio              O(n)           O(1) 
+Remover elemento do final               O(1)           O(1)
+Remover elemento de posicao arbiraria   O(n)           O(n)
