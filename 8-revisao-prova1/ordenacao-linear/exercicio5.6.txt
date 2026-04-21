@@ -1,0 +1,15 @@
+Se eu receber um array de n posicoes vou ter que andar ele, para validar toda as posicoes.
+Mas para achar um maior, mas aqui invez de utilizar a busca linear utilizariamos a busca binaria.
+Analisando a alteracao na complexidade assintotica fica
+
+[3, 4, 5, 6, 7, 2]
+
+estamos no valor 2, nele teriamos que reler o vetor inteiro, com isso passariamos pelo primeiro e validariamos
+ja com a busca binaria dividiriamos o vetor no meio (parte ordenada), cairia em 5, depois no 3 ai sim descobririamos o valor
+acaba piorando, mas no caso abaixo. 
+
+[5, 3, 4, 5, 6, 7, 2]
+
+comecando no primeiro valor 5, encontrariamos o valor no meio cinco, ja validamos o valor dele, melhor que passar, valor por valor
+
+mas no melhor caso, O(n log n)

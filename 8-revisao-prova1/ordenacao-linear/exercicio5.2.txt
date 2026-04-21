@@ -1,0 +1,1 @@
+Basta inverter o comparador ou seja valor < array[j], podemos usar valor > array[j]

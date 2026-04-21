@@ -1,0 +1,11 @@
+Mostre o conteudo do array de inteiros [5, 7, 4, 9, 8, 5, 6, 3] para cada vez que o algoritmo insertion sort
+o modifica durante o processo de ordenacao
+
+[(5), 7, 4, 9, 8, 5, 6, 3]
+[5, (7), 4, 9, 8, 5, 6, 3]
+[(4), 5, 7, 9, 8, 5, 6, 3]
+[4, 5, 7, (9), 8, 5, 6, 3]
+[4, 5, 7, (8), 9, 5, 6, 3]
+[4, 5, (5), 7, 8, 9, 6, 3]
+[4, 5, 5, (6), 7, 8, 9, 3]
+[(3), 4, 5, 5, 6, 7, 8, 9]
