@@ -1,0 +1,7 @@
+32 enqueue
+10 first
+15 dequeue
+5 dequeue null
+
+32 - 10
+22
