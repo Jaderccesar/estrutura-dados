@@ -1,0 +1,30 @@
+Pilhas, filas e deques se diferenciam pela suas caracteristicas de insercao e remocao
+
+Pilha - LIFO: Last in first out
+
+Operacoes:
+Push, inserir no topo da Pilha
+pop, remover e retorna o elemento do topo da pilha
+top, retorna o elemento do topo da pilha
+
+Aplicacoes:
+Historico de navegador, avancar e voltar
+Operacoes em um editor de texto, desfazer, refazer
+
+Filas - FIFO first in, first out
+
+Operacoes:
+Enqueue - insere um elemento no final da fila
+dequeue - retira um elemento do comeco da fila
+
+Aplicacoes
+* Impressora de rede
+* Requisicoes web
+
+Deque - Uma fila com insercao e remocao de ambos os lados, nao se pode inserir ou remover do meio
+add_first - insere no inicio
+add_last - insere no final
+remove_first - remove e retorna do inicio
+remove_last - remove e retorna do final
+
+* Algoritmos de escalonamentos de processos

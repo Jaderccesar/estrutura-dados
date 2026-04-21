@@ -1,0 +1,30 @@
+Merge Sort: Divide os array e ordena entre eles, exemplo
+
+[7, 6, 5, 3]
+[7, 6] [5, 3]
+[7] [6] [5] [4]
+[4, 5, 6, 7]
+
+Quick Sort: Define um pivo e observa os maiores e menor, separa eles e depois ordena
+Exemplo:
+
+[4, 8, 2, 5]
+
+Pivo = 5
+Maiores = [8]
+Menores = [2, 4]
+[2, 4, 5, 8]
+
+Radix Sort:
+Valida as unidades, dezenas e centenas.
+Exemplo:
+[170, 45, 75, 90]
+
+Valida a unidade:
+[170, 90, 45, 75]
+
+Valida a dezena:
+[170, 45, 75, 90]
+
+Valida a centena:
+[45, 75, 90, 170]

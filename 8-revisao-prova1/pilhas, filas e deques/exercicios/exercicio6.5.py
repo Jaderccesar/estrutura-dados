@@ -37,6 +37,7 @@ class ArrayStack:
             T.push(S.pop())
         return T
     
+    
 S = ArrayStack()
 S.push('A')
 S.push('B')
