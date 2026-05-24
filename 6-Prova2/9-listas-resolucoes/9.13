@@ -1,0 +1,11 @@
+Quantas árvores binárias de busca diferentes podem armazenar os valores {1, 2, 3}?
+
+(2n)!
+(n+1)! n!
+
+(2 * 3)!
+(3 + 1)! 3!
+
+
+720
+144 = 5

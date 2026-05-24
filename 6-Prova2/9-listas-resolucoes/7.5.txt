@@ -1,0 +1,22 @@
+put(6, "Phoebe") -> [Phoebe]
+put(4, "Joey")  -> [Joey, Phoebe]
+put(4, "Ross")  -> [Joey, Ross, Phoebe]
+min -> "Joey"
+put(6, "Rachel") -> [Joey, Ross, Phoebe, Rachel]
+Get -> Joey = [Ross, Phoebe, Rachel]
+Get -> Ross = [Phoebe, Rachel]
+Min -> Phoebe
+put(6, "Monica") -> [Phoebe, Monica, Rachel]
+Get -> Phoebe = [Monica, Rachel]
+
+7.6
+
+[Ross, Joey ,Phoebe]
+Phoebe
+[Rachel, Ross, Joey, Phoebe]
+Phoebe
+Joey
+[Monica, Rachel, Ross]
+Ross
+[Monica, Rachel]
+

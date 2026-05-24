@@ -1,0 +1,2 @@
+Fila de prioridade, pois você pode inserir um evento e a prioridade ser o timestamp adicionado
+Logo com o Get você consegue pegar exatamento o próximo evento pra processar
